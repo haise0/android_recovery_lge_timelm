@@ -17,4 +17,8 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_timelm.mk
 
-COMMON_LUNCH_CHOICES := omni_timelm-eng
+COMMON_LUNCH_CHOICES := \
+    omni_timelm-user \
+    omni_timelm-userdebug \
+    omni_timelm-eng
+
